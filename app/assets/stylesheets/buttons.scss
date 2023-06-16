@@ -3,9 +3,12 @@
 .btn-primary {
   background-color: $button-bg-color;
   border: none;
-  width: 100%;
+  width: 90%;
   text-align: center;
   color: white;
   padding: 16px 0;
   font-weight: bold;
+  position: absolute;
+  bottom: 10px;
+  margin-left: auto;
 }
