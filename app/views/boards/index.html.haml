@@ -16,5 +16,6 @@
         .board_content
           %p= board.description
           = image_tag 'user1.png', class: 'avatar_image'
-  .add-board
-    %h2 + Add new board
+  = link_to new_board_path do
+    .add-board
+      %h2 + Add new board
