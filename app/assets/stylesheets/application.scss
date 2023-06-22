@@ -4,6 +4,8 @@
 @import 'buttons';
 @import 'form';
 @import 'sign-btn';
+@import 'board';
+@import 'card';
 
 html {
   word-spacing: 1px;
@@ -37,4 +39,9 @@ a {
 .container {
   padding: 16px 16px;
   width: 100%;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 400;
 }

@@ -1,0 +1,35 @@
+.board {
+  background-color: $primary-color;
+  border-radius: 10px;
+  padding: 20px 16px;
+  margin: 20px 0px;
+
+  &_header {
+    display: flex;
+    position: relative;
+
+
+    &_actions{
+      right: 0;
+      position: absolute;
+    }
+  }
+
+  &_content {
+    p {
+      font-size: 14px;
+      opacity: 0.4;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.add-board {
+  border: dashed 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px 16px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

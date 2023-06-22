@@ -1,1 +1,20 @@
-
+.container
+  .pagetitle
+    All Boards
+  - @boards.each do |board|
+    = link_to board_path(board) do
+      .board
+        .board_header
+          .board_header_title
+            = board.name
+          .board_header_actions
+            .dropdown
+              = image_tag 'action.svg', class: 'dropbtn'
+              .dropdown-content.mini
+                -# %a{href: "#"} Edit
+                -# %a{href: "#"} Delete
+        .board_content
+          %p= board.description
+          = image_tag 'user1.png', class: 'avatar_image'
+  .add-board
+    %h2 + Add new board
