@@ -4,17 +4,6 @@
   padding: 20px 16px;
   margin: 20px 0px;
 
-  &_header {
-    display: flex;
-    position: relative;
-
-
-    &_actions{
-      right: 0;
-      position: absolute;
-    }
-  }
-
   &_content {
     p {
       font-size: 14px;

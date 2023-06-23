@@ -1,6 +1,15 @@
 .container
-  .pagetitle
-    = @board.name
+  .page_content
+    .pagetitle
+      = @board.name
+    .page_content_actions
+      .dropdown
+        = image_tag 'action.svg', class: 'dropbtn'
+        .dropdown-content.mini
+          = link_to 'Edit', edit_board_path(@board)
+          -# %a{href: "#"} Delete
+  .page_description
+    %p= @board.description
   .card
     .card_title
       Home business advertising ideas
