@@ -10,7 +10,7 @@
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
   %body
     %header.header
-      %p.header_pageTitle Boards
+      %h1.header_pageTitle Boards
       - if user_signed_in?
         .dropdown
           = image_tag 'default-avatar.png', class: 'header_avatar dropbtn'

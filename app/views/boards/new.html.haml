@@ -3,7 +3,7 @@
     - @board.errors.full_messages.each do |message|
       %li= message
   .pagetitle
-    New Board
+    %h2 New Board
   = form_with(model: @board, url: boards_path, method: 'post', local: true) do |f|
     %div
       = f.label :name, 'Name'

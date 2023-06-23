@@ -1,6 +1,6 @@
 .container
   .pagetitle
-    All Boards
+    %h2 All Boards
   - @boards.each do |board|
     = link_to board_path(board) do
       .board
@@ -11,4 +11,4 @@
           = image_tag 'user1.png', class: 'avatar_image'
   = link_to new_board_path do
     .add-board
-      %h2 + Add new board
+      %h3 + Add new board
