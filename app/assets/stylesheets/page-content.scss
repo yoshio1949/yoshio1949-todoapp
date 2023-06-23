@@ -1,0 +1,10 @@
+.page_content {
+  display: flex;
+  position: relative;
+
+  &_actions {
+    right: 0;
+    position: absolute;
+  }
+
+}
